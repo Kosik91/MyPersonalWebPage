@@ -35,7 +35,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
   background: #eee;
   text-align: center;
@@ -101,3 +101,45 @@ a {
     font-size: 1rem; }
   .et-hero-tab {
     font-size: 1rem; } }
+
+.margin-t-b {
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+
+hr {
+  padding-bottom: 30px;
+  color: red;
+  position: fixed;
+  z-index: 999; }
+
+.aboutme-img {
+  border: 1px solid #bab4bb;
+  padding: 7px; }
+
+.padd {
+  padding: 15px 15px; }
+
+.center {
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto; }
+
+.position {
+  flex-direction: row-reverse; }
+
+.marg-r-l {
+  margin-right: 50px;
+  margin-left: 50px; }
+
+.btn-primary {
+  border: 2px solid #746c75;
+  background: none;
+  line-height: 30px;
+  font-size: 12px;
+  color: #372d38;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 0; }

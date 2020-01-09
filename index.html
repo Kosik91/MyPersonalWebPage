@@ -4,9 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+
     <title>Document</title>
 </head>
 <body>
+    <header class="et-header">
+        <div class="et-header__left">
+            <a href="" class="et-header__logo">Home</a>
+        </div>
+    </header>
     
+    <section class="et-hero-tabs">
+ <div id="landing-header">
+ 
+	<h1>STICKY SLIDER NAV V2</h1>
+        <h3>Sliding content with sticky tab nav</h3>
+    </div>
+    
+    <ul class="slideshow">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+        
+        <div class="et-hero-tabs-container">
+            <a class="et-hero-tab" href="#tab-es6">ABOUT ME</a>
+            <a class="et-hero-tab" href="#tab-flexbox">SKILLS & EXPERTICE</a>
+            <a class="et-hero-tab" href="#tab-react">EDUCATION</a>
+            <a class="et-hero-tab" href="#tab-angular">PORTFOLIO</a>
+            <a class="et-hero-tab" href="#tab-other">CONTAKT</a>
+            <span class="et-hero-tab-slider"></span>
+        </div>
+    </section>
+    
+    <main class="et-main">
+        <section class="et-slide" id="tab-es6">
+            <h1>ABOUT ME</h1>
+            <h3>something about me</h3>
+        </section>
+        <section class="et-slide" id="tab-flexbox">
+            <h1>Flexbox</h1>
+            <h3>something about flexbox</h3>
+        </section>
+        <section class="et-slide" id="tab-react">
+            <h1>React</h1>
+            <h3>something about react</h3>
+        </section>
+        <section class="et-slide" id="tab-angular">
+            <h1>Angular</h1>
+            <h3>something about angular</h3>
+        </section>
+        <section class="et-slide" id="tab-other">
+            <h1>Other</h1>
+            <h3>something about other</h3>
+        </section>
+    </main>
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+        <script src="index.js""></script>
+        
 </body>
 </html>

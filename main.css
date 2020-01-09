@@ -1,3 +1,17 @@
-@import "./css/slider.css";
+
 @import "./css/style.css";
 @import "./css/newslider.css";
+
+
+
+section:nth-child(odd)  {
+    background: #EEEEEE;
+}
+
+section:nth-child(even) {
+    background:#e8e8e8;
+}
+
+i {
+    font-size:10em;
+}

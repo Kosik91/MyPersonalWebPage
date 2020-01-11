@@ -48,13 +48,16 @@ a {
 // Hero 
 //
 
-.et-hero-tabs,
+// .links {
+//  display: inline-block;
+// float: right;
+// }
 .et-slide {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    //justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 50vh;
     position: relative;
     background: #eee;
 		text-align: center;
@@ -69,9 +72,32 @@ a {
         letter-spacing: 0.3rem;
         opacity: 0.6;
     }
-    
+      
 }
 
+
+.et-hero-tabs {
+    display: flex;
+    flex-direction: column;
+    //justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: #eee;
+		text-align: center;
+		padding: 0 2em;
+    h1 {
+        font-size: 2rem;
+        margin: 0;
+        letter-spacing: 1rem;
+    }
+    h3 {
+        font-size: 1rem;
+        letter-spacing: 0.3rem;
+        opacity: 0.6;
+    }
+      
+}
 
 .et-hero-tabs-container {
     display: flex;
@@ -123,6 +149,7 @@ a {
 @media (min-width: 800px) {
 	.et-hero-tabs,
 	.et-slide {
+  
     h1 {
         font-size: 3rem;
     }
@@ -141,22 +168,19 @@ a {
     margin-bottom: 3rem;
    // padding: 30px;
 }
-hr{
-    padding-bottom: 30px;
-    color: red;
-   
-    position: fixed;
-    z-index: 999;
 
-}
 .aboutme-img{
 
     border: 1px solid #bab4bb;
     padding: 7px;
 }
+.border-r{
+    border-left: 2px solid #e2e2e2  ;
+    margin-bottom: 2em;
+}
 
 .padd{
-    padding: 15px 15px ;
+    padding: 1rem 1rem ;
           
 }
 .center {
@@ -170,19 +194,77 @@ hr{
 
 .position {
    flex-direction: row-reverse;
+   align-items: center;
 }
 .marg-r-l{
     margin-right: 50px;
     margin-left: 50px;
 }
-.btn-primary {
+.button-resume {
+    display:flex;
      border: 2px solid #746c75; 
     background: none;
-    line-height: 30px;
-    font-size: 12px;
+    //line-height: 1.5rem;
+    font-size: 1rem;
     color: #372d38;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: 600;
     border-radius: 0;
+    overflow: hidden;
+    align-items: center;
+    position:relative;
+    max-width:50%;
+    height: auto;
+    padding: 0.5em 0.5em;
+    margin-top: 20px;
+    margin-bottom: 2rem;
+ 
+    $line-size: 2px;
+  &:hover{
+      background-color: transparent;
+      border:2px solid transparent;
+     text-decoration: none;
+     color: #372d38;
+     
+.border-line {
+    position: absolute;
+  }
+  .border-line:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: $line-size;
+    background: linear-gradient(to right,#746c7500,#746c75);
+    animation: animate1 2s linear infinite;
+  }
+  
+  .border-line:nth-child(2) {
+    top: 0;
+    left: 0;
+    width: $line-size;
+    height: 100%;
+    background: linear-gradient(to top,#746c7500,#746c75);
+    animation: animate2 2s linear infinite;
+  }
+  .border-line:nth-child(3) {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: $line-size;
+    background: linear-gradient(to left, #746c7500, #746c75);
+    animation: animate3 2s linear infinite;
+  }  
+  .border-line:nth-child(4) {
+    top: 0;
+    right: 0;
+    width: $line-size;
+    height: 100%;
+    background: linear-gradient(to bottom,  #746c7500, #746c75);
+    animation: animate4 2s linear infinite;
+  }    
+  
 }
+
+    }
+

@@ -1,10 +1,8 @@
 
 @import "./css/style.css";
 @import "./css/newslider.css";
-<<<<<<< HEAD
-=======
 @import "./css/sorting-porfolio.css";
->>>>>>> activesite
+
 
 
 
@@ -18,9 +16,7 @@ section:nth-child(even) {
 
 i {
     font-size:10em;
-<<<<<<< HEAD
-}
-=======
+
 }
 
 .conForm input {
@@ -50,4 +46,4 @@ i {
     outline: none;
     height: 20vh;
 }
->>>>>>> activesite
+

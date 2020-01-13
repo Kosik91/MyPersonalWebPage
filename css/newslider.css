@@ -17,17 +17,18 @@ body {
 
 .slideshow {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   top: 0;
   left: 0;
   z-index: 0;
   list-style: none;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  overflow: hidden; }
 
 .slideshow li {
-  width: 100%;
+  width: 100vw;
   height: 100%;
   position: absolute;
   top: 0;
@@ -73,3 +74,27 @@ body {
 /* Older browser support - .no-cssanimations class added by modernizr */
 .no-cssanimations .slideshow li {
   opacity: 1; }
+
+@keyframes animate1 {
+  0% {
+    transform: translateX(-100%); }
+  100% {
+    transform: translateX(100%); } }
+
+@keyframes animate2 {
+  0% {
+    transform: translateY(100%); }
+  100% {
+    transform: translateY(-100%); } }
+
+@keyframes animate3 {
+  0% {
+    transform: translateX(100%); }
+  100% {
+    transform: translateX(-100%); } }
+
+@keyframes animate4 {
+  0% {
+    transform: translateY(-100%); }
+  100% {
+    transform: translateY(100%); } }

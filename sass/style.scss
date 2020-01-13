@@ -3,6 +3,10 @@
 //
 
 body {
+<<<<<<< HEAD
+=======
+  
+>>>>>>> activesite
 	font-family: "Century Gothic", "Lato", sans-serif;
 }
 
@@ -15,9 +19,22 @@ a {
 //
 
 .et-header {
+<<<<<<< HEAD
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+=======
+  i {
+    font-size:2em;
+    color: #E8E8E8;
+    text-shadow: 0 0 3px #212529;
+    
+  }
+  width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+>>>>>>> activesite
 	align-items: center;
 	position: fixed;
 	top: 0;
@@ -39,7 +56,11 @@ a {
 		color: #000;
 	}
 	&__link {
+<<<<<<< HEAD
 		margin-left: 1em;
+=======
+		
+>>>>>>> activesite
 		color: #000;
 	}
 }
@@ -48,8 +69,12 @@ a {
 // Hero 
 //
 
-.et-hero-tabs,
+// .links {
+//  display: inline-block;
+// float: right;
+// }
 .et-slide {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,7 +94,35 @@ a {
         letter-spacing: 0.3rem;
         opacity: 0.6;
     }
+      
+}
+
+
+.et-hero-tabs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    background: #eee;
+		text-align: center;
+		padding: 0 2em;
+    h1 {
+        font-size: 2rem;
+        margin: 0;
+        letter-spacing: 1rem;
+    }
+    h3 {
+        font-size: 1rem;
+        letter-spacing: 0.3rem;
+        opacity: 0.6;
+    }
+<<<<<<< HEAD
     
+=======
+      
+>>>>>>> activesite
 }
 
 
@@ -123,6 +176,10 @@ a {
 @media (min-width: 800px) {
 	.et-hero-tabs,
 	.et-slide {
+<<<<<<< HEAD
+=======
+  
+>>>>>>> activesite
     h1 {
         font-size: 3rem;
     }
@@ -133,8 +190,114 @@ a {
 	.et-hero-tab {
 		font-size: 1rem;
 	}
+<<<<<<< HEAD
+=======
 }
 
+
+.margin-t-b {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+   // padding: 30px;
+>>>>>>> activesite
+}
+
+.aboutme-img{
+
+    border: 1px solid #bab4bb;
+    padding: 7px;
+}
+.border-r{
+    border-left: 2px solid #e2e2e2  ;
+    margin-bottom: 2em;
+}
+
+.padd{
+    padding: 1rem 1rem ;
+          
+}
+.center {
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+
+}
+
+.position {
+   flex-direction: row-reverse;
+   align-items: center;
+}
+.marg-r-l{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.button-resume {
+    display:flex;
+     border: 2px solid #746c75; 
+    background: none;
+    //line-height: 1.5rem;
+    font-size: 1rem;
+    color: #372d38;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 0;
+    overflow: hidden;
+    align-items: center;
+    position:relative;
+    max-width:50%;
+    height: auto;
+    padding: 0.5em 0.5em;
+    margin-top: 20px;
+    margin-bottom: 2rem;
+ 
+    $line-size: 2px;
+  &:hover{
+      background-color: transparent;
+      border:2px solid transparent;
+     text-decoration: none;
+     color: #372d38;
+     
+    .border-line {
+        position: absolute;
+      }
+      .border-line:nth-child(1) {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: $line-size;
+        background: linear-gradient(to right,#746c7500,#746c75);
+        animation: animate1 2s linear infinite;
+      }
+      
+      .border-line:nth-child(2) {
+        top: 0;
+        left: 0;
+        width: $line-size;
+        height: 100%;
+        background: linear-gradient(to top,#746c7500,#746c75);
+        animation: animate2 2s linear infinite;
+      }
+      .border-line:nth-child(3) {
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: $line-size;
+        background: linear-gradient(to left, #746c7500, #746c75);
+        animation: animate3 2s linear infinite;
+      }  
+      .border-line:nth-child(4) {
+        top: 0;
+        right: 0;
+        width: $line-size;
+        height: 100%;
+        background: linear-gradient(to bottom,  #746c7500, #746c75);
+        animation: animate4 2s linear infinite;
+      }    
+  }
+}
 
 .margin-t-b {
     margin-top: 3rem;

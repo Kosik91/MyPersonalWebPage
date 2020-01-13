@@ -71,25 +71,6 @@ a {
     letter-spacing: 0.3rem;
     opacity: 0.6; }
 
-.et-hero-tabs {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  position: relative;
-  background: #eee;
-  text-align: center;
-  padding: 0 2em; }
-  .et-hero-tabs h1 {
-    font-size: 2rem;
-    margin: 0;
-    letter-spacing: 1rem; }
-  .et-hero-tabs h3 {
-    font-size: 1rem;
-    letter-spacing: 0.3rem;
-    opacity: 0.6; }
-
 .et-hero-tabs-container {
   display: flex;
   flex-direction: row;
@@ -151,169 +132,75 @@ a {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: auto; }
-  .center .aboutme-img {
-    border: 1px solid #bab4bb;
-    padding: 7px; }
-  .center .padd {
-    padding: 1rem 1rem; }
-  .center .center {
-    display: block;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto; }
-  .center .position {
-    flex-direction: row-reverse;
-    align-items: center; }
-  .center .marg-r-l {
-    margin-right: 50px;
-    margin-left: 50px; }
-  .center .button-resume {
-    display: flex;
-    border: 2px solid #746c75;
-    background: none;
-    font-size: 1rem;
-    color: #372d38;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-weight: 600;
-    border-radius: 0;
-    overflow: hidden;
-    align-items: center;
-    position: relative;
-    max-width: 50%;
-    height: auto;
-    padding: 0.5em 0.5em;
-    margin-top: 20px;
-    margin-bottom: 2rem; }
-    .center .button-resume:hover {
-      background-color: transparent;
-      border: 2px solid transparent;
-      text-decoration: none;
-      color: #372d38; }
-      .center .button-resume:hover .border-line {
-        position: absolute; }
-      .center .button-resume:hover .border-line:nth-child(1) {
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 2px;
-        background: linear-gradient(to right, #746c7500, #746c75);
-        animation: animate1 2s linear infinite; }
-      .center .button-resume:hover .border-line:nth-child(2) {
-        top: 0;
-        left: 0;
-        width: 2px;
-        height: 100%;
-        background: linear-gradient(to top, #746c7500, #746c75);
-        animation: animate2 2s linear infinite; }
-      .center .button-resume:hover .border-line:nth-child(3) {
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 2px;
-        background: linear-gradient(to left, #746c7500, #746c75);
-        animation: animate3 2s linear infinite; }
-      .center .button-resume:hover .border-line:nth-child(4) {
-        top: 0;
-        right: 0;
-        width: 2px;
-        height: 100%;
-        background: linear-gradient(to bottom, #746c7500, #746c75);
-        animation: animate4 2s linear infinite; }
-  .center .position {
-    flex-direction: row-reverse;
-    align-items: center; }
-  .center .marg-r-l {
-    margin-right: 50px;
-    margin-left: 50px; }
-  .center .button-resume {
-    display: flex;
-    border: 2px solid #746c75;
-    background: none;
-    font-size: 1rem;
-    color: #372d38;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-weight: 600;
-    border-radius: 0;
-    overflow: hidden;
-    align-items: center;
-    position: relative;
-    max-width: 50%;
-    height: auto;
-    padding: 0.5em 0.5em;
-    margin-top: 20px;
-    margin-bottom: 2rem; }
-    .center .button-resume:hover {
-      background-color: transparent;
-      border: 2px solid transparent;
-      text-decoration: none;
-      color: #372d38; }
-      .center .button-resume:hover .border-line {
-        position: absolute; }
-      .center .button-resume:hover .border-line:nth-child(1) {
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 2px;
-        background: linear-gradient(to right, #746c7500, #746c75);
-        animation: animate1 2s linear infinite; }
-      .center .button-resume:hover .border-line:nth-child(2) {
-        top: 0;
-        left: 0;
-        width: 2px;
-        height: 100%;
-        background: linear-gradient(to top, #746c7500, #746c75);
-        animation: animate2 2s linear infinite; }
-      .center .button-resume:hover .border-line:nth-child(3) {
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 2px;
-        background: linear-gradient(to left, #746c7500, #746c75);
-        animation: animate3 2s linear infinite; }
-      .center .button-resume:hover .border-line:nth-child(4) {
-        top: 0;
-        right: 0;
-        width: 2px;
-        height: 100%;
-        background: linear-gradient(to bottom, #746c7500, #746c75);
-        animation: animate4 2s linear infinite; }
-  .center .margin-t-b {
-    margin-top: 3rem;
-    margin-bottom: 3rem; }
-  .center hr {
-    padding-bottom: 30px;
-    color: red;
-    position: fixed;
-    z-index: 999; }
-  .center .aboutme-img {
-    border: 1px solid #bab4bb;
-    padding: 7px; }
-  .center .padd {
-    padding: 15px 15px; }
-  .center .center {
-    display: block;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto; }
-  .center .position {
-    flex-direction: row-reverse; }
-  .center .marg-r-l {
-    margin-right: 50px;
-    margin-left: 50px; }
-  .center .btn-primary {
-    border: 2px solid #746c75;
-    background: none;
-    line-height: 30px;
-    font-size: 12px;
-    color: #372d38;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-weight: 600;
-    border-radius: 0; }
+
+.aboutme-img {
+  border: 1px solid #bab4bb;
+  padding: 7px; }
+
+.padd {
+  padding: 1rem 1rem; }
+
+.position {
+  flex-direction: row-reverse;
+  align-items: center; }
+
+.marg-r-l {
+  margin-right: 50px;
+  margin-left: 50px; }
+
+.button-resume {
+  display: flex;
+  border: 2px solid #746c75;
+  background: none;
+  font-size: 1rem;
+  color: #372d38;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 0;
+  overflow: hidden;
+  align-items: center;
+  position: relative;
+  max-width: 50%;
+  height: auto;
+  padding: 0.5em 0.5em;
+  margin-top: 20px;
+  margin-bottom: 2rem; }
+  .button-resume:hover {
+    background-color: transparent;
+    border: 2px solid transparent;
+    text-decoration: none;
+    color: #372d38; }
+    .button-resume:hover .border-line {
+      position: absolute; }
+    .button-resume:hover .border-line:nth-child(1) {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(to right, #746c7500, #746c75);
+      animation: animate1 2s linear infinite; }
+    .button-resume:hover .border-line:nth-child(2) {
+      top: 0;
+      left: 0;
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(to top, #746c7500, #746c75);
+      animation: animate2 2s linear infinite; }
+    .button-resume:hover .border-line:nth-child(3) {
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(to left, #746c7500, #746c75);
+      animation: animate3 2s linear infinite; }
+    .button-resume:hover .border-line:nth-child(4) {
+      top: 0;
+      right: 0;
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(to bottom, #746c7500, #746c75);
+      animation: animate4 2s linear infinite; }
 
 .data-curses {
   justify-content: left;

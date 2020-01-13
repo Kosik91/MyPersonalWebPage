@@ -16,15 +16,15 @@
 <body>
     <header class="et-header">
         <div class="et-header__left">
-            <a href="" class="et-header__logo">Home</a>
+            <a  class="et-header__logo"><i onclick="topFunction()" id="myBtn" class="fas fa-home"></i></a>
         </div>
     </header>
     
     <section class="et-hero-tabs">
  <div id="landing-header">
  
-	<h1>STICKY SLIDER NAV V2</h1>
-        <h3>Sliding content with sticky tab nav</h3>
+	<h1>PAWEŁ KOS</h1>
+        <h3>Junior Frond-End Developer</h3>
     </div>
     
     <ul class="slideshow ">
@@ -130,12 +130,12 @@
                     <hr>
                 </div>
                 <div class="row media">
-                    <div class="col-6 col-md-4 col-sm-2">
+                    <div class="col-6 col-md-4 col-sm">
                         <div class=''>
                             Mar,2011<br>January 2011
                         </div>
                     </div>
-                    <div class="col-12 col-md-8 col-sm-2 border-r">
+                    <div class="col-12 col-md-8 col-sm border-r">
                         <h4>Master Degree of Design</h4>
                         <h5>University of Design</h5>
                         <p>Cras dictum tellus dui, vitae sollicitudin ipsum tincidunt adipiscing atgfnte varius at. Sed mollis
@@ -166,33 +166,89 @@
 
         </section>
         <section class="et-slide" id="tab-portfolio">
-            <div class="margin-t-b">
-            <h1>PORTFOLIO</h1>
+            <div class="container">
+                <h1>PORTFOLIO</h1>
             </div>
-    <div class="container">
-        <hr>
-    </div>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat. cillum dolore eu fugiat nulla
-            pariatur. olore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat.
-            
-            nulla pariatur.uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            olore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.</h3>
+            <div class="container">
+                <hr class='margin-t-b'>
+            </div>
+
+            <h3 class='margin-t-b'>
+                <nav id="filters" role='navigation'>
+                    <ul>
+                        <li class="li-class"><a class='button' data-filter="*">Show All</a></li>
+                        <li class="li-class"><a class='button' data-filter=".pro100">Pro100</a></li>
+                        <li class="li-class"><a class='button' data-filter=".webPage">Webpage</a></li>
+                        <li class="li-class last"><a class='button' data-filter=".jsApp">JavaScript App</a></li>
+                    </ul>
+                </nav>
+            </h3>
+            <div id="containeri" class="container-isotope ">
+                <div class="items blue pro100">
+                    <img src="https://www.ecru.pl/themes/img/logo.svg" />
+                    <i class="fa fa-paw"></i>
+                </div>
+                <div class="items blue pro100">
+                    <img src="https://www.ecru.pl/themes/img/logo.svg" />
+                    <i class="fa fa-paw"></i>
+                </div>
+                <div class="items blue pro100 jsApp">
+                    <img src="https://www.mberkan.pl/wp-content/uploads/2019/03/js.png" />
+                    <i class="fa fa-paw"></i>
+                </div>
+                <div class="items blue webPage">
+                    <img src="https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_960_720.jpg" />
+                    <i class="fa fa-paw"></i>
+                </div>
+                <div class="items blue webPage">
+                    <img src="https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_960_720.jpg" />
+                    <i class="fa fa-paw"></i>
+                </div>
+                <div class="items blue jsApp">
+                    <img src="https://www.mberkan.pl/wp-content/uploads/2019/03/js.png" />
+                    <i class="fa fa-paw"></i>
+                </div>
+                <div class="items blue jsApp">
+                    <img src="https://www.mberkan.pl/wp-content/uploads/2019/03/js.png" />
+                    <i class="fa fa-paw"></i>
+                </div>
+           
+                
+            </div>
+         </div>
+        <span class="margin-t-b"></span>
         </section>
         <section class="et-slide" id="tab-contact">
             <h1>Contact</h1>
-            <h3>something about other</h3>
-            <div class="container"> <hr></div>
+            <h3>Please feel free if you would like to have a chat.</h3>
+            <div class="container"> <hr class='margin-t-b'>
+                <div class="row media">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 conForm text-center">
+                        <div id="message"></div>
+                        <form method="POST" action="php/contact.php" name="cform" id="cform">
+                            <input name="name" id="name" type="text" class="col-xs-12 col-sm-12 col-md-8 col-lg-8"
+                                placeholder="Your name">
+                            <input name="email" id="email" type="email" class=" col-xs-12 col-sm-12 col-md-8 col-lg-8 noMarr"
+                                placeholder="Your email">
+                            <textarea name="comments" id="comments" cols="" rows="" class="col-xs-12 col-sm-12 col-md-8 col-lg-8"
+                                placeholder="Your message"></textarea>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><input type="submit" id="submit" name="send"
+                                    class="submitBnt" value="Send message"></div>
+                            <div id="simple-msg"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
 
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
-
-        <script src="index.js""></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
         
+        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+        
+        <script src="test.js""></script>
+        <script src="index.js""></script>
 </body>
 </html>
+

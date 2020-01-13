@@ -5,9 +5,10 @@ a {
   text-decoration: none; }
 
 .et-header {
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   position: fixed;
   top: 0;
@@ -17,6 +18,10 @@ a {
   height: 75px;
   z-index: 2;
   transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1); }
+  .et-header i {
+    font-size: 2em;
+    color: #E8E8E8;
+    text-shadow: 0 0 3px #212529; }
   .et-header--scrolled {
     background: #fff;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); }
@@ -26,14 +31,14 @@ a {
   .et-header__logo {
     color: #000; }
   .et-header__link {
-    margin-left: 1em;
     color: #000; }
 
 .et-slide {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  min-height: 50vh;
+  min-height: 100vh;
   position: relative;
   background: #eee;
   text-align: center;
@@ -50,6 +55,7 @@ a {
 .et-hero-tabs {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   height: 100vh;
   position: relative;

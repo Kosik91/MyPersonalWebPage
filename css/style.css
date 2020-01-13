@@ -126,30 +126,16 @@ a {
   margin-top: 3rem;
   margin-bottom: 3rem; }
 
-<<<<<<< HEAD
-hr {
-  padding-bottom: 30px;
-  color: red;
-  position: fixed;
-  z-index: 999; }
-
-=======
->>>>>>> activesite
 .aboutme-img {
   border: 1px solid #bab4bb;
   padding: 7px; }
 
-<<<<<<< HEAD
-.padd {
-  padding: 15px 15px; }
-=======
 .border-r {
   border-left: 2px solid #e2e2e2;
   margin-bottom: 2em; }
 
 .padd {
   padding: 1rem 1rem; }
->>>>>>> activesite
 
 .center {
   display: block;
@@ -159,37 +145,22 @@ hr {
   margin-bottom: auto; }
 
 .position {
-<<<<<<< HEAD
-  flex-direction: row-reverse; }
-=======
   flex-direction: row-reverse;
   align-items: center; }
->>>>>>> activesite
 
 .marg-r-l {
   margin-right: 50px;
   margin-left: 50px; }
 
-<<<<<<< HEAD
-.btn-primary {
-  border: 2px solid #746c75;
-  background: none;
-  line-height: 30px;
-  font-size: 12px;
-=======
 .button-resume {
   display: flex;
   border: 2px solid #746c75;
   background: none;
   font-size: 1rem;
->>>>>>> activesite
   color: #372d38;
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 600;
-<<<<<<< HEAD
-  border-radius: 0; }
-=======
   border-radius: 0;
   overflow: hidden;
   align-items: center;
@@ -234,4 +205,3 @@ hr {
       height: 100%;
       background: linear-gradient(to bottom, #746c7500, #746c75);
       animation: animate4 2s linear infinite; }
->>>>>>> activesite
